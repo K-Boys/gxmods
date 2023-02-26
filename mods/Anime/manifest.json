@@ -1,0 +1,74 @@
+{
+    "manifest_version": 3,
+    "name": "Anime",
+    "description": "The Anime save the world",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_512.png"
+    },
+    "developer":
+    {
+        "name": "Krislime"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+            "wallpaper":
+            {
+                "dark":
+                { 
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/SnkAnime.png"
+                },
+                "light":
+                {
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/SnkAnime.png"
+                }
+            },
+            "background_music":
+            [
+                "music/track_1.mp3",
+                "music/track_2.mp3"  
+            ],
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 260,
+                        "s": 98,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 260,
+                        "s": 100,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 52
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 270,
+                        "s": 100,
+                        "l": 88
+                    }
+                }
+            }  
+        }
+    }
+}
